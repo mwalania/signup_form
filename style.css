@@ -53,11 +53,12 @@ body{
 }
 .logo-image{
   width: 70px;
+  margin-right: 8px;
 }
 .logo-text{
   display: inline-block;
   color: white;
-  font-size: 2.5em; /*Am not sure abt the em unit, i will come back */
+  font-size: 4em; /*Am not sure abt the em unit, i will come back */
   font-family: norse-bold, Arial, Helvetica, sans-serif;
 
 }
@@ -139,7 +140,7 @@ body{
 }
 .row-group input{
   font-size: 14px;
-  border: 1px solid #ccc;
+  border: 1px solid #E5E7EB;
   border-radius: 4px;
   padding: 6px 6px;
   width: 100%;
@@ -149,7 +150,7 @@ body{
   border-color: #0000ff;
   box-shadow: 0 2px 4px rgba(0, 0, 255, 0.2);
 } */
-/* .form-group input:focus-visible{
+/* .form-groups input:focus-visible{
   border-color: red;
 } */
 
@@ -160,7 +161,7 @@ body{
 
 .account-btn{
   
-  background-color: #2e411d;
+  background-color: #596D48;
   margin-bottom: 20px;
   font-size: 15px;
   color: #fff;
@@ -183,5 +184,5 @@ body{
 }
 .acc-link:link,
 .acc-link:visited{
-  color: #2e411d;
+  color: #596D48;
 }
