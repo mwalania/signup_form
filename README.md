@@ -21,6 +21,23 @@ code .
 touch index.html style.css 
 ```
 
+# Project Structure
+```bash
+signup_form/
+|
+├── fonts
+│   ├── Norse-Bold.woff
+│   ├── Norse-Bold.woff2
+│   ├── Norse.woff
+│   └── Norse.woff2
+├── index.html
+├── odin_background.jpg
+├── odin_logo.png
+├── README.md
+└── style.css
+
+```
+
 # Technologies
 - HTML
 - CSS
