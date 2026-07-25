@@ -9,10 +9,10 @@
 <body>
   <div class="container">
     <div class="image-wrapper">
-      <img src="odin_background.jpg" alt="green leaf plant in close up photography">
+      <!-- <img class="bg-image" src="odin_background.jpg" alt="green leaf plant in close up photography"> -->
       <div class="logo">
-        <img src="odin_logo.png" alt="A picture of the odin project logo">
-        <h1>ODIN</h1>
+        <img class="logo-image" src="odin_logo.png" alt="A picture of the odin project logo">
+        <h1 class="logo-text">ODIN</h1>
       </div>
       <p class="author-attribute">
         Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -21,32 +21,52 @@
     <div class="info-wrapper">
       <div class="intro">
         <p>This is not a real online service! You know you need something like this in your life 
-          to help you realize your deepest dreams.Signup now to get started.
+          to help you realize your deepest dreams. Sign up now to get started.
         </p>
         <p>You know you want to.</p>
       </div>
 
-      <div class="form-wrapper">
-        <h2>Lets do this!</h2>
-        <form action="">
-          <label for="firstname">First Name</label>
-          <input type="text" name="first_name" id="firstname">
-          <label for="lastname">Last Name</label>
-          <input type="text" name="last_name" id="lastname">
-          <label for="email">Email</label>
-          <input type="email" required name="email" id="email">
-          <label for="phonenumber">Phone Number</label>
-          <input type="tel" name="phone_number" id="phonenumber">
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password">
-          <label for="confirm_pass">Confirm Password</label>
-          <input type="password" name="pwd_confirm" id="confirm_pass">
-        </form>
-      </div>
-      <div class="extras">
-        <button type="submit">Create Account</button>
-        <p>Already have an account? <a href="#">Log in</a></p>
-      </div>
+      <form action="" class="signup-form">
+        <div class="form-wrapper">
+          <p class="form-title">Lets do this!</p>
+          <div class="form-groups">
+            <div class="form-group">
+              <div class="row-group">
+                <label for="firstname">First Name</label>
+                <input type="text" required minlength="3" name="first_name" id="firstname">
+              </div>
+              <div class="row-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" required minlength="3" name="last_name" id="lastname">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="row-group">
+                <label  for="email">Email</label>
+                <input type="email" required name="email" id="email">
+              </div>
+              <div class="row-group">
+                <label for="phonenumber">Phone Number</label>
+                <input type="tel" name="phone_number" id="phonenumber">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="row-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+              </div>
+              <div class="row-group">
+                <label for="confirm_pass">Confirm Password</label>
+                <input type="password" name="pwd_confirm" id="confirm_pass">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="extras">
+          <button class="account-btn" type="submit">Create Account</button>
+          <p>Already have an account? <a class="acc-link" href="#">Log in</a></p>
+        </div>
+      </form>
     </div>
   </div>
 </body>
