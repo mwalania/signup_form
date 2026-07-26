@@ -121,15 +121,18 @@ body{
   flex-wrap: wrap;
   gap: 20px 60px;
   width: 100%;
+  /* max-width: 650px; */
 }
 .form-group{
   display: flex;
-  gap: 0 60px;
+  gap: 0 40px;
+  width: 100%;
 }
 .row-group{
   display: flex;
   flex-direction: column;
-  /* flex: 1 1 calc(50% - 30px); */
+  flex: 1 ;
+  /* width: 40%; */
 }
 .row-group label{
   font-family: var(--primary-color);
@@ -144,7 +147,7 @@ body{
   border: 1px solid #E5E7EB;
   border-radius: 4px;
   padding: 6px 6px;
-  width: 100%;
+  /* width: 100%; */
   /* box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16); */
 }
 .row-group input:user-invalid{
